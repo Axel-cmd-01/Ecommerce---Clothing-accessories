@@ -1,0 +1,19 @@
+# Archivos de configuración del editor
+.vscode/
+
+# Archivos temporales y del sistema
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Cache y sesiones
+cache/
+tmp/
+*.tmp
+
+# Entornos locales
+.env
+
+# Archivos de XAMPP (por si acaso)
+xamppfiles/

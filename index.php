@@ -6,11 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clothing accessories</title>
 
-  <link rel="icon" href="assets/images/Logo.png" type="image/png">
+  <link rel="icon" href="assets/images/Logo-icon.svg" type="image/svg+xml">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Favicon para modo claro -->
+<link rel="icon" href="favicon-light.ico" media="(prefers-color-scheme: light)">
+
+<!-- Favicon para modo oscuro -->
+<link rel="icon" href="favicon-dark.ico" media="(prefers-color-scheme: dark)">
+
 </head>
 
 <body>
-  <h1>Hola, este es el inicio de mi tienda en la que voy a estar trabajando durante unos mb_ereg_search_setpos</h1>
+  <?php include 'pages/header.php'; ?> 
+
+
 </body>
 
 </html>
