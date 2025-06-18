@@ -9,7 +9,11 @@
     </div>
   </section>
 
-  <section class="second-section">
-    <h1>parte dos del main</h1>
+  <section class="second-section w-full h-64 flex items-center justify-center">
+    <h2 class="text-6xl">Playeras con estilo y comodidad asegurada</h2>
+  </section>
+
+  <section class="third-section">
+    
   </section>
 </main>
