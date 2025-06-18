@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header class="flex items-center justify-between p-4 bg-gray-100 shadow-md">
+  <header class="flex items-center justify-between p-4 bg-[#fff] shadow-md"> // Quitar la sobra cuando se haya terminado de hacer el banner
     <img class="size-16" src="assets/images/Logo-black.svg" alt="Imagen del logo">
     <nav class="flex items-center space-x-4">
       <div class="button-search flex items-center space-x-2 p-1 border border-gray-300 rounded-full">
