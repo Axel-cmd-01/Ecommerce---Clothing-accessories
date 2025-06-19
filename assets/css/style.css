@@ -1,5 +1,5 @@
 /*estilos del archivo home.php*/
-.left-side, .second-section {
+.left-side, .second-section, .products {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: weight-900;
@@ -8,4 +8,9 @@
 
 .imagen-playeras {
   clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Mueve hasta la mitad del contenedor (mostrando las últimas 3 imágenes) */
 }

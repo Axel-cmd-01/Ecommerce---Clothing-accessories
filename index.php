@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -27,7 +27,7 @@
 
   <?php include 'pages/home.php'; ?>
 
-
+  <?php include 'includes/footer.php'; ?>
 
   <script src="../assets/js/main.js"></script>
 
