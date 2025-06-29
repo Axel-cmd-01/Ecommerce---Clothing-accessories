@@ -14,26 +14,57 @@
   </section>
 
   <section class="relative w-full h-[460px] bg-[#242424] overflow-hidden">
-  <div class="flex h-full w-[200%] animate-[slide_15s_infinite_linear] hover:animation-paused">
-    <!-- Cada imagen ocupa 1/6 del ancho total (que es 200%), así que 3 imágenes llenan el 100% del viewport -->
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera.avif" alt="" class="h-[400px] w-auto object-contain">
+    <div class="carousel flex h-full w-[200%] animate-[slide_15s_infinite_linear] hover:animation-paused">
+      <!-- Cada imagen ocupa 1/6 del ancho total (que es 200%), así que 3 imágenes llenan el 100% del viewport -->
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera 2.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera 3.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera 4.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera 5.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
+      <div class="w-1/6 h-full flex items-center justify-center p-4 relative mx-8">
+        <img src="../assets/images/images-carrusel/imagen de playera 5.avif" alt="" class="h-[400px] w-full object-cover absolute top-4">
+        <div class="h-[50px] w-full bg-[#fafafa] z-1 flex justify-around items-center absolute bottom-4">
+          <h3 class="text-2xl">$400.00 pesos</h3>
+          <a href=""><img src="../assets/images/icono-favorito.svg" alt="Icono de favorito"></a>
+        </div>
+      </div>
+
     </div>
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera 2.avif" alt="" class="h-[400px] w-auto object-contain">
-    </div>
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera 3.avif" alt="" class="h-[400px] w-auto object-contain">
-    </div>
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera 4.avif" alt="" class="h-[400px] w-auto object-contain">
-    </div>
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera 5.avif" alt="" class="h-[400px] w-auto object-contain">
-    </div>
-    <div class="w-1/6 h-full flex items-center justify-center p-4">
-      <img src="../assets/images/images-carrusel/imagen de playera 5.avif" alt="" class="h-[400px] w-auto object-contain">
-    </div>
-  </div>
-</section>
+  </section>
 </main>

@@ -1,5 +1,5 @@
 /*estilos del archivo home.php*/
-.left-side, .second-section, .products {
+.left-side, .second-section, .products, h3 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: weight-900;
@@ -13,4 +13,4 @@
 @keyframes slide {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); } /* Mueve hasta la mitad del contenedor (mostrando las últimas 3 imágenes) */
-}
+} 
